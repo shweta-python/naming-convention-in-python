@@ -7,6 +7,10 @@ class MainClass:
     x="MainClass"  
     
     print("This is a class name syntax : "+x)
-    
     print("Class names should normally use the CapWords convention")
- 
+ Readability
+Well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.
+For example, although
+ a = b * c;
+is syntactically correct, its purpose is not evident. Contrast this with:
+ weekly_pay = hours_worked * hourly_pay_rate;
